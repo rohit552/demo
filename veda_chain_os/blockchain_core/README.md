@@ -10,4 +10,6 @@ This directory contains the components for the VEDA Chain OS Base Layer – a Qu
 -   **Scalability**: Auto-scalable sharding.
 -   **Governance**: On-chain governance using a DAO 2.0 model.
 
+Development has begun on the **Cryptography** module, with an initial structure for lattice-based post-quantum algorithms. We plan to use libraries from the `pqcrypto` suite.
+
 Further details on each component will be added as development progresses.

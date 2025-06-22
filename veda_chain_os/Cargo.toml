@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "blockchain_core",
+    # Other potential future members/crates in the veda_chain_os workspace
+    # "ai_layer",
+    # "os_sandbox",
+    # "developer_tools",
+    # "app_marketplace",
+    # "decentralized_cloud",
+]
+
+[profile.release]
+lto = true
+opt-level = 'z' # Optimize for size
+codegen-units = 1
+panic = 'abort'
